@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>予約チャットボット</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id= "chat_window">
+            <!--メッセージが表示される画面-->
+            <div class="messages">
+                <div class="message">
+                    
+                </div>
+            </div>
+            <!--入力場所，送信ボタン-->
+            <div class="input_container">
+                <input type= "text" placeholder= "テキストを入力">
+                <button id="send_btn" value= "送信">送信</button>
+            </div>
+        </div>
+        <!-- メニュー -->
+        <div class="menu">
+            <ul>
+                <li id="reserve_btn">診療予約</li>
+                <li>お電話</li>
+            </ul>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
